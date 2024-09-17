@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.font-inter{
+    font-family: "Inter", sans-serif;
+}
+.font-raleway{
+    font-family: "Raleway", sans-serif;
+}
+.bg-image{
+    background-image: url(/assets/images/png/sec-1-bg.png)
+
+}
+.prev {
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 200ms linear;
+}
+
+.next {
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 200ms linear;
+}
+
+.next:hover {
+    background-color: white;
+}
+
+.next:hover path {
+    fill: black;
+}
+
+.prev:hover {
+    background-color: white;
+}
+
+.prev:hover path {
+    fill: black;
+}
